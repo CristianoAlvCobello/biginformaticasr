@@ -54,6 +54,7 @@
                         <a href="index.php" class="font-semibold <?php active('index.php') ?>">INÍCIO</a>
                         <a href="sobre.php" class="font-semibold <?php active('sobre.php') ?>">SOBRE NÓS</a>
                         <a href="historico.php" class="font-semibold <?php active('historico.php') ?>">ATUALIZAÇÕES DO SISTEMA</a>
+                        <a href="treinamentos.php" class="font-semibold pointer-events-none opacity-70 cursor-not-allowed <?php active('treinamentos.php') ?>">TREINAMENTOS</a>
                     </div>
 
                     <!-- Botão mobile -->
@@ -64,10 +65,11 @@
 
                 <!-- Menu Mobile -->
                 <div id="mobile-menu" class="md:hidden max-h-0 overflow-hidden opacity-0 transform scale-y-95 transition-all duration-300 ease-in-out">
-                    <div class="flex flex-col space-y-2 px-4 py-2 text-lg">
+                    <div class="flex flex-col space-y-2 px-4 py-2 text-xl">
                         <a href="index.php" class="font-semibold transition duration-300 <?php active('index.php') ?>">INÍCIO</a>
                         <a href="sobre.php" class="font-semibold transition duration-300 <?php active('sobre.php') ?>">SOBRE NÓS</a>
                         <a href="historico.php" class="font-semibold transition duration-300 <?php active('historico.php') ?>">ATUALIZAÇÕES DO SISTEMA</a>
+                        <a href="treinamentos.php" class="font-semibold transition duration-300 pointer-events-none opacity-70 cursor-not-allowed <?php active('treinamentos.php') ?>">TREINAMENTOS</a>
                     </div>
                 </div>
             </div>

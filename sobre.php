@@ -160,7 +160,7 @@
     speed: 800,
     spaceBetween: 30,
     grabCursor: true,
-  });
+  })
 </script>
 
 

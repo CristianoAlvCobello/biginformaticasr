@@ -46,4 +46,5 @@
 </body>
 <script src="js/script.js"></script>
 <?php echo ($arquivo == "index.php") ? '<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script><script>AOS.init();</script>' : ''; ?>
+<?php echo ($arquivo == "treinamentos.php") ? '<script src="js/treinamentos.js"></script>' : ''; ?>
 </html>

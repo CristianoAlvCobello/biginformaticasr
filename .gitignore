@@ -1,6 +1,10 @@
 # Dependências do Node
 node_modules/
 
+# Páginas em produção
+treinamentos.php
+treinamentos.js
+
 # Arquivos de configuração do npm
 package-lock.json
 package.json
