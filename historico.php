@@ -18,6 +18,13 @@
           <!-- Links -->
           <ul class="flex flex-col p-4 space-y-3">
             <li>
+              <button onclick="mudarConteudo('15-09-25')"
+                id="15-09-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                15/09/25
+              </button>
+            </li>
+            <li>
               <button onclick="mudarConteudo('08-09-25')"
                 id="08-09-25"
                 class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
@@ -132,7 +139,7 @@
       window.scrollTo({ top: 0 })
     }, 300)
   }
-  mudarConteudo('08-09-25')
+  mudarConteudo('15-09-25')
 </script>
 
 <?php 
