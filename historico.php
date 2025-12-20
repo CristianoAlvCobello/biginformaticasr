@@ -18,6 +18,153 @@
           <!-- Links -->
           <ul class="flex flex-col p-4 space-y-3">
             <li>
+              <button onclick="mudarConteudo('12-12-25')"
+                id="12-12-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                12/12/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('09-12-25')"
+                id="09-12-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                09/12/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('08-12-25')"
+                id="08-12-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                08/12/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('02-12-25')"
+                id="02-12-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                02/12/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('01-12-25')"
+                id="01-12-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                01/12/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('24-11-25')"
+                id="24-11-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                24/11/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('20-11-25')"
+                id="20-11-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                20/11/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('19-11-25')"
+                id="19-11-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                19/11/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('17-11-25')"
+                id="17-11-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                17/11/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('13-11-25')"
+                id="13-11-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                13/11/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('11-11-25')"
+                id="11-11-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                11/11/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('06-11-25')"
+                id="06-11-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                06/11/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('05-11-25')"
+                id="05-11-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                05/11/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('04-11-25')"
+                id="04-11-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                04/11/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('03-11-25')"
+                id="03-11-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                03/11/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('28-10-25')"
+                id="28-10-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                28/10/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('20-10-25')"
+                id="20-10-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                20/10/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('15-10-25')"
+                id="15-10-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                15/10/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('14-10-25')"
+                id="14-10-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                14/10/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('30-09-25')"
+                id="30-09-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                30/09/25
+              </button>
+            </li>
+            <li>
+              <button onclick="mudarConteudo('16-09-25')"
+                id="16-09-25"
+                class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
+                16/09/25
+              </button>
+            </li>
+            <li>
               <button onclick="mudarConteudo('15-09-25')"
                 id="15-09-25"
                 class="w-full px-4 py-2 font-bold rounded-lg bg-red-600 hover:bg-red-700 transition-all duration-200 ease-in-out cursor-pointer">
@@ -139,7 +286,7 @@
       window.scrollTo({ top: 0 })
     }, 300)
   }
-  mudarConteudo('15-09-25')
+  mudarConteudo('12-12-25')
 </script>
 
 <?php 
