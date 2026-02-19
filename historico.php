@@ -6,7 +6,7 @@
 
 <div class="flex flex-col bg-gray-100">
   <!-- Conteúdo -->
-  <div class="w-full max-w-7xl flex flex-wrap md:flex-nowrap gap-6 px-4 md:px-8 py-6 items-start" style="margin-left: 10rem;">
+  <div class="w-full mx-auto max-w-6xl flex flex-wrap md:flex-nowrap gap-6 px-4 md:px-8 py-6 items-start">
     <!-- NAV LATERAL -->
     <aside class="w-full md:w-64 self-start lg:sticky top-36">
       <div class="md:sticky md:top-6">
