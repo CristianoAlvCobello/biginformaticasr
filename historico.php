@@ -356,18 +356,21 @@
                 </li>
               </ul>
             </li>
-            
-            </ul>
+          </ul>
         </nav>
       </div>
     </aside>
 
+    <!-- CONTEÚDO PRINCIPAL -->
     <main id="conteudo" class="flex-1 flex justify-center items-start opacity-100 transition-opacity duration-300 ease-in-out">
-        </main>
-  
+    <!--JS-->
+    </main>
+  </div>
 </div>
 
 <script>
+  function mudarConteudo(pagina) {
+    var conteudo = document.getElementById('conteudo')
 
     // Seleciona todos os botões de dia
     var botoes = document.querySelectorAll('.btn-data')
@@ -384,63 +387,20 @@
     botaoSelecionado.classList.remove('font-base')
     botaoSelecionado.classList.add('font-bold')
 
-    
-    if (window.innerWidth < 1024) {
-      document.getElementById('lista-principal').classList.add('hidden');
-      document.getElementById('menu-icon-main').style.transform = "rotate(0deg)";
-    }
+    // Animação do conteúdo
+    conteudo.classList.remove("opacity-100")
+    conteudo.classList.add("opacity-0")
 
-    
-    conteudo.classList.replace("opacity-100", "opacity-0");
     setTimeout(() => {
       fetch('./atualizacoes/' + pagina + '.html')
         .then(res => res.text())
         .then(html => {
-          conteudo.innerHTML = html;
-          conteudo.classList.replace("opacity-0", "opacity-100");
+          conteudo.innerHTML = html 
+          conteudo.classList.remove("opacity-0")
+          conteudo.classList.add("opacity-100")
         })
-        .catch(() => {
-          conteudo.innerHTML = "<p class='p-10 font-bold text-red-600'>Erro ao carregar arquivo.</p>";
-          conteudo.classList.replace("opacity-0", "opacity-100");
-        });
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }, 300);
-  }
-
-  
-function toggleMenu() {
-  const menu = document.getElementById('menu-lateral');
-  const overlay = document.getElementById('overlay');
-  
-  
-  menu.classList.toggle('-translate-x-full');
-  
-  
-  overlay.classList.toggle('hidden');
-}
-  
-function togglePrincipal() {
-  const menu = document.getElementById('menu-historico');
-  menu.classList.toggle('-translate-x-full');
-}
-
-
-  function toggleAccordion(id, btn) {
-    const subLista = document.getElementById(id);
-    const icon = btn.querySelector('i');
-    
- 
-    subLista.classList.toggle('hidden');
-    
-  
-    if (icon.classList.contains('bi-chevron-down')) {
-    
-      icon.style.transform = subLista.classList.contains('hidden') ? "rotate(0deg)" : "rotate(180deg)";
-    } else {
-     
-      icon.classList.toggle('bi-plus-lg');
-      icon.classList.toggle('bi-dash-lg');
-    }
+      window.scrollTo({ top: 0 })
+    }, 300)
   }
 
   function toggleMes(id) {
@@ -524,4 +484,6 @@ function togglePrincipal() {
   mudarConteudo('2026/13-01-26')
 </script>
 
-<?php include 'includes/footer.php' ?>
+<?php 
+    include 'includes/footer.php' 
+?>
