@@ -21,10 +21,12 @@
     <meta itemprop="name" content="Big Informática Sr - <?php echo $titulo?>">
     <meta property="og:title" content="Big Informática Sr - <?php echo $titulo?>"> 
     <meta property="og:url" content="https://biginformaticasr.com.br/<?php echo $arquivo?>">
+    <meta property="og:image" content="https://biginformaticasr.com.br/images/logo-inteira.jpg">
     <meta property="og:type" content="article">
     <meta property="og:description" content="Especializada em automação comercial e assistência técnica, a Big Informática fornece ao mercado soluções inovadoras em software para pequenas, médias e grandes empresas, além de um excelente suporte.">
     <meta property="og:site_name" content="Big Informática Sr">
     <meta property="og:locale" content="pt_BR">
+    <meta name="description" content="<?php $descricao?>">
     <!--End Seo-->
     <!--FavIcon-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">

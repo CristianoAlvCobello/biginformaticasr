@@ -1,6 +1,7 @@
 <?php   
     $titulo = "Sobre"; 
     $arquivo = basename(__FILE__);
+    $descricao = "Conheça a Big Informática em São Roque/SP: mais de 20 anos de experiência em soluções de tecnologia, suporte técnico, sistemas de gestão e atendimento personalizado.";
     include 'includes/header.php'; 
 ?>
 

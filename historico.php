@@ -1,6 +1,7 @@
 <?php   
     $titulo = "Historico de atualizações"; 
     $arquivo = basename(__FILE__);
+    $descricao = "Veja o histórico de atualizações e melhorias da Big Informática – soluções completas de TI, suporte técnico, sistemas de gestão e manutenção em São Roque/SP";
     include 'includes/header.php';
 ?>
 
